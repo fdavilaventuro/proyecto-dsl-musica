@@ -1,0 +1,40 @@
+// Saria's Song (Lost Woods) - The Legend of Zelda: Ocarina of Time
+tempo 140;
+
+loop 2 {
+    play F4, 0.5;
+    play A4, 0.5;
+    play B4, 1.0;
+    
+    play F4, 0.5;
+    play A4, 0.5;
+    play B4, 1.0;
+    
+    play F4, 0.5;
+    play A4, 0.5;
+    play B4, 0.5;
+    play E5, 0.5;
+    play D5, 1.0;
+    
+    play B4, 0.5;
+    play C5, 0.5;
+    play B4, 0.5;
+    play G4, 0.5;
+    play E4, 1.5;
+    
+    // Silencios consecutivos para demostrar la optimizacion de fusion
+    rest 0.25;
+    rest 0.25;
+    
+    play D4, 0.5;
+    play E4, 0.5;
+    play G4, 0.5;
+    play E4, 1.5;
+    
+    rest 0.5;
+}
+
+// Bucle muerto (0 iteraciones) para demostrar eliminacion de codigo inalcanzable
+loop 0 {
+    play C8, 1.0;
+}

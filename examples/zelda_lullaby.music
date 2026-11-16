@@ -1,0 +1,28 @@
+// Zelda's Lullaby - Compas ternario (3/4)
+tempo 105;
+
+loop 2 {
+    play B4, 2.0;
+    play D5, 1.0;
+    play A4, 2.0;
+    play G4, 0.5;
+    play A4, 0.5;
+    
+    play B4, 2.0;
+    play D5, 1.0;
+    play A4, 3.0;
+    
+    play B4, 2.0;
+    play D5, 1.0;
+    play A5, 2.0;
+    play G5, 1.0;
+    
+    play D5, 2.0;
+    play C5, 0.5;
+    play B4, 0.5;
+    play A4, 2.0;
+    
+    // Silencios consecutivos para prueba de optimizacion
+    rest 0.5;
+    rest 0.5;
+}

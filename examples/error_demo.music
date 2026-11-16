@@ -1,0 +1,19 @@
+// Archivo de demostracion de deteccion de errores semanticos del dominio
+tempo 120;
+
+// 1. Error: Nota fuera del rango fisico de un piano de 88 teclas (A0 - C8)
+play G9, 1.0;
+
+// 2. Error: Nomenclatura musical invalida (doble sostenido no soportado)
+// play C##4, 0.5;
+
+// 3. Error: Duracion invalida (debe ser estrictamente mayor a cero)
+// play C4, -1.5;
+
+// 4. Error: Silencio con duracion cero o negativa
+// rest 0;
+
+// 5. Error: Repeticiones negativas en un bucle
+// loop -3 {
+//     play A4, 0.5;
+// }

@@ -1,0 +1,54 @@
+// Super Mario Bros - Main Theme (Intro y frase principal)
+tempo 200;
+
+// Intro clasica
+play E5, 0.25;
+rest 0.25;
+play E5, 0.25;
+rest 0.5;
+play E5, 0.25;
+rest 0.5;
+play C5, 0.25;
+rest 0.25;
+play E5, 0.5;
+rest 0.5;
+play G5, 0.5;
+rest 1.5;
+play G4, 0.5;
+rest 1.5;
+
+// Frase principal repetida
+loop 2 {
+    play C5, 0.5;
+    rest 1.0;
+    play G4, 0.5;
+    rest 1.0;
+    play E4, 0.5;
+    rest 1.0;
+    play A4, 0.5;
+    rest 0.5;
+    play B4, 0.5;
+    rest 0.5;
+    play Bb4, 0.25;
+    rest 0.25;
+    play A4, 0.5;
+    rest 0.5;
+    
+    play G4, 0.66;
+    play E5, 0.66;
+    play G5, 0.66;
+    play A5, 0.5;
+    rest 0.5;
+    play F5, 0.25;
+    rest 0.25;
+    play G5, 0.5;
+    rest 0.5;
+    play E5, 0.5;
+    rest 0.5;
+    play C5, 0.25;
+    rest 0.25;
+    play D5, 0.25;
+    rest 0.25;
+    play B4, 0.5;
+    rest 1.0;
+}

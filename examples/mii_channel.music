@@ -1,0 +1,40 @@
+// Mii Channel Theme - Nintendo Wii
+tempo 115;
+
+loop 2 {
+    play F#4, 0.5;
+    rest 0.5;
+    play A4, 0.5;
+    play C#5, 0.5;
+    rest 0.5;
+    play A4, 0.5;
+    rest 0.5;
+    play F#4, 0.5;
+    
+    play D4, 0.25;
+    play D4, 0.25;
+    play D4, 0.25;
+    rest 1.25;
+    
+    // Pausa dramatica
+    rest 1.0;
+    
+    play D4, 0.25;
+    play D4, 0.25;
+    play D4, 0.25;
+    rest 0.5;
+    play C#4, 0.5;
+    play D4, 0.5;
+    play F#4, 0.5;
+    play A4, 0.5;
+    play C#5, 0.5;
+    rest 0.5;
+    play A4, 0.5;
+    rest 0.5;
+    play F#4, 0.5;
+    play E5, 1.0;
+    rest 0.5;
+    play D#5, 0.5;
+    play D5, 0.5;
+    rest 1.5;
+}
